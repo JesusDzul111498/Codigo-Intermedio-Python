@@ -66,8 +66,3 @@ def caso3(valor):
 
 
 
-#Dos casos de prueba
-caso3("X = (a + 5) / 3 + b")
-
-print("--------------------------")
-caso3("x = 3 + b / (a + 2 )")

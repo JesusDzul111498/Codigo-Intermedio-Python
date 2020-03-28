@@ -1,15 +1,12 @@
-import re
+
 
 #ejemplo =  "X = 3 + 5 * Y"
 #           0 1 2 3 4 5 
 
-pila = []
-variables = []
-
-ejemplo = raw_input("Ingresa la expresion \n")
-str(ejemplo)
 
 def caso1(valor):
+	pila = []
+	variables = []
 	contador = -1
 	for i in valor:
 		if i != " ":
@@ -66,9 +63,9 @@ def caso1(valor):
 				
 			
 				
-
+	print valor
 	print(var_t0)
 	print(var_t1)
-caso1(ejemplo)
+
 
 

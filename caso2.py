@@ -28,14 +28,12 @@ def caso2(valor):
 				resultados.append([i])
 				pila.remove(i)
 	print(valor)
-	print("t0 = " + str(resultados[0]))
-	print("t1 = " + str(resultados[1]))
-	print("t2 = t0 "+ str(resultados[2]) + " t1")
+	print("t0 = " + " ".join(resultados[0]))
+	print("t1 = " +  " ".join(resultados[1]))
+	print("t2 = t0 "+  " ".join(resultados[2]) + " t1")
 
 
 
 
 	
 
-
-caso2("x = a / a + b / b")
